@@ -1,0 +1,71 @@
+.main_product_cart_{
+    display: flex;
+    width: 15rem;
+    height: 25rem;
+    /* background-color: rgb(226, 169, 169); */
+    /* align-items: center; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    border: 1px solid red;
+    box-shadow: 0 0 50px #ccc;
+    
+}
+
+
+.image_div{
+    height: 12rem;
+    width: 15rem;
+    border-radius: 1rem;
+}
+.image_div_img{
+    height: 12rem;
+    width: 15rem;
+    border-radius: 1rem;
+}
+
+.brand_cat{
+    display: flex;
+    gap: 1rem;
+}
+/* .price_rating{
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-start;
+} */
+.dis{
+    color: green;
+}
+
+.title_div{
+    margin-top: .8rem;
+    color: red;
+    margin-bottom: 1rem;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   gap: .5rem;
+}
+.item_price{
+    display: flex;
+    margin-left: 0px;
+    justify-content: center;
+    flex-direction: column;
+    gap: .3rem;
+}
+.rupees_rating{
+    display: flex;
+    gap: 3rem;
+    font-weight: bold;
+}
+
+button{
+    border-radius: 1rem;
+    padding: .3rem;
+}
+button:hover{
+   background-color: green;
+   transition-duration: 500ms;
+}

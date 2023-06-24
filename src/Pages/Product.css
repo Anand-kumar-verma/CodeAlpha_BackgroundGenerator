@@ -1,0 +1,17 @@
+.productsss_card{
+    /* height: 100%;
+    width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.nav_div{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+.productsss_card{
+    margin-top: 4rem;
+}

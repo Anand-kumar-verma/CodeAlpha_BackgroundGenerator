@@ -1,0 +1,20 @@
+
+.card_product_single{
+justify-content: center;
+display: flex;
+flex-wrap: wrap;
+}
+
+.card_product_parent_{
+    display: flex;
+   flex-wrap: wrap;
+   gap: 1rem;
+   justify-content: center;
+}
+
+.div_item{
+    height: 100%;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+}

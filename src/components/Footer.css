@@ -1,0 +1,122 @@
+.wrapper{
+    width: 100%;
+    height: 25rem;
+    background-color:#F3F6F5;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.box{
+    margin-top: 5rem;
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.box_items{
+    margin-left: 3rem;
+    width: 14rem;
+    height: 15rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.content_item_img_1{
+    width: 8rem;
+    height: 2rem;
+}
+.content_item2{
+    display: flex;
+    gap: 1rem;
+}
+.content_item2_img{
+    height: 2rem;
+    width: 2rem;
+    border-radius: .2rem;
+}
+.content_item3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: .8rem;
+
+    color: #07484A;
+}
+.content_item4{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: .7rem;
+    color: #07484A;
+   display: flex;
+   flex-direction: column;
+   gap: .5rem;
+}
+.box_items2{
+    margin-left: 3rem;
+    width: 14rem;
+    height: 15rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+   
+}
+.content_item4_text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #07484A;
+}
+.copyright{
+    margin-left: 3rem;
+    font-family: 'Open-Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .9rem;
+    color: #07484A;
+}
+
+@media screen and (max-width: 768px) {
+    .box{
+        width: 100%;
+        height: 15rem;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    } 
+    .copyright{
+        margin-top: 20rem;
+    }
+    .content_item4_text1{
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width:320px) {
+ .copyright{
+    opacity: 0;
+ }
+
+    .box_items2{
+        height: 10rem;
+        margin-top: 4rem;
+    }
+    .box_items{
+        margin-left: 3rem;
+        width: 14rem;
+        height: 10rem;
+        display: flex;
+        gap: 1rem;
+
+        flex-direction: column;
+    }
+    .box{
+        margin-top: 4rem;
+        gap: 1rem;
+    }
+    .wrapper{
+        height: 70rem;
+    }
+ 
+}
